@@ -6,6 +6,8 @@ from skimage.filters import threshold_local #the threshold_local function from s
 
 from PIL import Image
 
+#this is my comment
+
 import PIL.Image
 
 from pytesseract import image_to_string
