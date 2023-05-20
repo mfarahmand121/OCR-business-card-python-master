@@ -19,6 +19,7 @@ img = cv2.rotate(img, cv2.ROTATE_90_COUNTERCLOCKWISE)
 ratio = img.shape[0] / 500.0
 orig = img.copy()
 img = imutils.resize(img, height = 500) #500 pixels
+# mohsen added this comment
 
 #convert image to grayscale, blur it and find edges
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
